@@ -1,0 +1,113 @@
+<!DOCTYPE HTML> 
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="cdn/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="cdn/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+  <link href="cdn/owl.theme.default.min.css" rel="stylesheet" type="text/css" />
+  <link href="cdn/confirm-box.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+	<title>Yosemite Trails</title>
+</head>
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<!--Logo-->
+				<div class="col-12">
+  <a href="index.html"><img src="images/half_dome_extra_small.jpg" alt="Half Dome" style="display: block; margin: auto;"></a>
+        </div>
+    <div class="col-12">
+    <nav class="navbar navbar-expand-lg navbar-light mx-auto">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="margin: auto;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav nav_link">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"  href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trail_list.html">Trail List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bridalveil_fall.html">Bridalveil Fall Trail</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lower_yosemite_fall.html">Lower Yosemite Fall Trail</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mirror_lake_trail.html">Mirror Lake Trail</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mist_trail.html">Mist Trail</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About &amp; Credits</a>
+          </li>
+         </ul>
+         </div> 
+      </div>
+    </nav>
+  </div>
+</div>
+</div>
+</header>
+<main>
+  <section>
+    <h1>Yosemite Trails</h1> 
+    <div class="row">
+        <div class="col-12"><p>Due to COVID-19, many of us cannot travel. If people cannot travel to Yosemite, we want to bring Yosemite to you. This site will showcase different and popular trails throughout park. Hopefully once the pandemic is over, we want to welcome you back to the park.</p><p>There are over 100 different trails with Yosemite National Park. With a third being in the Valley. As of now, have broken down four trails. I am hoping in the future, I will be able to do more trails within the Valley and eventually do trails in the high country and Tuolumne Meadows.</p></div>
+        <div class="col-12">
+          <h2>Pictures from my time in Yosemite</h2>
+          <div id="carousel1" class=" owl-carousel owl-theme">
+                <div><img src="images/inspiration_xs.jpg" alt='Inspiration Point'></div>
+                <div><img src="images/half_dome_sm.jpg" alt="half dome"></div>
+                <div><img src="images/step_sm.jpg" alt="Mist Trail"></div>
+                <div><img src="images/m_lake.jpg" alt="Mirror Lake"></div>
+                <div><img src="images/m_h_sm.jpg" alt="Looking at Half Dome"></div>
+                <div><img src="images/rainbow_sm.jpg" alt="Rainbow"></div>
+                <div><img src="images/nevada_sm.jpg" alt="Nevada Fall"></div>
+                <div><img src="images/fall_sm.jpg" alt="Yosemite Fall"></div>
+              </div>
+          </div>
+    </div>
+    </section>
+    <!--<footer>
+    <div class="row">
+        <div class="col-12"><h4>Sources</h4>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Mist_Trail" target="_blank">Mist Trail- Wikipedia Page</a></li>
+            <li><a href="https://www.nps.gov/yose/planyourvisit/lowerfalltrail.htm">Lower Yosemite Fall Trail- National Park Service Page</a></li>
+          </ul>
+        </div>
+    </div>
+    </footer>-->
+</main>
+<script src="cdn/jquery.js"></script>
+<script src="cdn/bootstrap.bundle.min.js"></script>
+    <script src="cdn/owl.carousel.min.js"></script>
+    <script>
+      $('#carousel1').owlCarousel({
+    loop: true,
+    margin:5,
+    center:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        768:{
+            items:3,
+            nav:false
+        }
+        
+    }
+})
+    </script>
+</body>
+</html>

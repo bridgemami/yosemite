@@ -1,0 +1,164 @@
+/* Students: Please use this week's project for Week 6: Assignment 6: Restyling Bootstrap. 
+     You will need to replace the contents of this HTML file with your own work, 
+     and create any other files, if any, required for the assignment.
+     When you are done, be certain to submit the assignment in both Repl.it and Canvas to be graded. */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&family=Source+Code+Pro&display=swap');
+/*font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Source Code Pro', monospace;*/
+
+
+
+/* Color Theme Swatches in Hex 
+.Yosemite-Firefall-1-hex { color: #313E59; } dark blue
+.Yosemite-Firefall-2-hex { color: #9CB6D9; } light blue
+.Yosemite-Firefall-3-hex { color: #F2CD88; } yellow
+.Yosemite-Firefall-4-hex { color: #8C5D42; } brown
+.Yosemite-Firefall-5-hex { color: #F2D8C9; } tan*/
+
+
+body {
+  /*background-image: linear-gradient(180deg,#9CB6D9,#F2D8C9);*/
+ background-image: linear-gradient(180deg,#9CB6D9,#F2D8C9);  
+  font-family:'Noto Sans', sans-serif;
+}
+header{
+  background-image: radial-gradient(snow 3%,#9CB6D9 97% );
+}
+a {
+  color: #8C5D42;
+}
+
+table {
+  overflow: auto;
+}
+
+.link_me{
+  text-decoration: underline;
+  text-align: center;
+  color: #8C5D42; 
+  cursor: pointer;
+}
+
+caption {
+caption-side: top;
+color:black;
+text-align: center;
+}
+
+a:hover, .link_me:hover {
+  color: #313E59;
+}
+
+nav {
+  margin: auto;
+  }
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+p {
+  padding: 10px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+.float{
+  float: left;
+  margin: 5px 20px 5px 0;
+}
+.fc{
+  text-align: left;
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+#mist {
+  width: 320px;
+  height: 213px; 
+}
+
+#yose_fall {
+   width: 180px;
+  height: 240px;
+}
+
+#footbridge {
+  width: 320px;
+  height: 213px;
+}
+#stairs {
+  width: 320px;
+  height: 213px;
+}
+
+#nevada{
+   width: 320px;
+  height: 213px;
+}
+
+#stars{
+   width: 251px;
+  height: 240px;
+}
+
+#lower{
+  width: 319px;
+  height: 480px;
+}
+}
+@media only screen and (min-width: 601px) {
+#mist {
+  width: 640px;
+  height: 427px; 
+}
+
+aside {
+  margin: auto;
+}
+
+#yose_fall {
+  width: 360px;
+  height: 480px;
+}
+
+#footbridge {
+  width: 640px;
+  height: 427px;
+}
+
+#stairs {
+  width: 640px;
+  height: 427px;
+}
+
+#nevada{
+  width: 640px;
+  height: 427px;
+}
+
+#stars{
+   width: 502px;
+  height: 480px;
+}
+
+#lower{
+  width: 398px;
+  height: 600px;
+}
+
+.nav_link {
+  margin:auto;
+}
+}
